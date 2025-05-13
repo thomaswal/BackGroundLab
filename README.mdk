@@ -1,0 +1,17 @@
+Ce projet permet :
+1. De **supprimer un objet** d'une image à l'aide de `rembg`.
+2. De **reconstruire automatiquement l'arrière-plan** avec une IA de type Stable Diffusion (`inpainting`).
+
+
+
+## 📦 Prérequis
+
+
+Assurez-vous d’avoir **Python 3.8 ou supérieur** installé.
+
+Ouvrez un terminal dans le dossier du projet et tapez pour installer les dépendances:
+
+```bash
+pip install rembg
+pip install diffusers transformers accelerate scipy safetensors
+pip install onnxruntime
